@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Web.deps.json
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Web.runtimeconfig.json
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Web.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Web.dll
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Web.pdb
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Data.dll
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Models.dll
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Data.pdb
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\bin\Debug\netcoreapp2.0\BestStore.Models.pdb
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\obj\Debug\netcoreapp2.0\BestStore.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\obj\Debug\netcoreapp2.0\BestStore.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\obj\Debug\netcoreapp2.0\BestStore.Web.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\obj\Debug\netcoreapp2.0\BestStore.Web.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\obj\Debug\netcoreapp2.0\BestStore.Web.dll
+C:\Users\Administrator\Desktop\MyProj\BestStore\BestStore.Web\obj\Debug\netcoreapp2.0\BestStore.Web.pdb
