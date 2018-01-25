@@ -83,3 +83,7 @@ jspm_packages
 .yarn-integrity
 /BestStore.Data/bin
 /BestStore.Data/obj
+/BestStore.Web/bin
+/BestStore.Web/obj
+/BestStore.Models/obj
+/BestStore.Models/bin
