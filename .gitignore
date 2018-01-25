@@ -5,7 +5,9 @@
 *.jpg
 *.rar
 node_modules
-
+.vs
+/bin
+/obj
 
 
 /.### OSX ###
@@ -79,3 +81,5 @@ jspm_packages
 
 # Yarn Integrity file
 .yarn-integrity
+/BestStore.Data/bin
+/BestStore.Data/obj

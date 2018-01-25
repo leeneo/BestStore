@@ -12538,12 +12538,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\BestStore.Models.csproj",
+      "projectUniqueName": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\BestStore.Models.csproj",
       "projectName": "BestStore.Models",
-      "projectPath": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\BestStore.Models.csproj",
+      "projectPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\BestStore.Models.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\obj\\",
+      "outputPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

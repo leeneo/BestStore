@@ -13160,12 +13160,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Web\\BestStore.Web.csproj",
+      "projectUniqueName": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Web\\BestStore.Web.csproj",
       "projectName": "BestStore.Web",
-      "projectPath": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Web\\BestStore.Web.csproj",
+      "projectPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Web\\BestStore.Web.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Web\\obj\\",
+      "outputPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13184,8 +13187,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "g:\\leeneo\\MyProj\\BestStore\\BestStore.Data\\BestStore.Data.csproj": {
-              "projectPath": "g:\\leeneo\\MyProj\\BestStore\\BestStore.Data\\BestStore.Data.csproj"
+            "G:\\leeneo\\MyProj\\BestStore\\BestStore.Data\\BestStore.Data.csproj": {
+              "projectPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Data\\BestStore.Data.csproj"
             }
           }
         }
@@ -13199,28 +13202,28 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.Extensions.Caching.Memory": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
           "Microsoft.Extensions.Configuration.UserSecrets": {
             "target": "Package",
             "version": "2.0.0"
           },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.Extensions.Caching.Memory": {
             "target": "Package",
             "version": "2.0.0"
           }
