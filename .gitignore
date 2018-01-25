@@ -87,3 +87,5 @@ jspm_packages
 /BestStore.Web/obj
 /BestStore.Models/obj
 /BestStore.Models/bin
+/CodeFirstDemo/bin
+/CodeFirstDemo/obj
