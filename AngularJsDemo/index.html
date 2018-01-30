@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello: {{name}}
+        <input type="text" name="" id="">
+    </h1>
+    <p>1+2={{1+2}}</p>
+    <div class="example2" ng-controller="ExampleController">
+        Name:
+        <input type="text" ng-model="name">
+        <button ng-click="greet()">Greet</button>
+        <button ng-click="window.alert('should hidden')">Won`t Greet</button>
+    </div>
+
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+        /* module declare:angular.module(name,[requires],[configFn])
+         *  name:Module name;requires:required Module;
+         *  demo:var myAMod=angular.module('myModule',['$http'],function([injectable]){config code;}) ;
+         *  <div ng-app='myModule'></div>
+         *  AngularJs directive:
+         *  <el ng-module="dirName" /> {{dirName}}
+         *  
+         *  
+         */
+        var myApp = angular.module('myModule', [], function () {
+            console.log(myApp);
+        });
+        myApp.controller('ExampleController', ['$window', '$scope', function ($window, $scope) {
+            $scope.name = 'AngularJs';
+            $scope.greet = function () {
+                $window.alert('Hello:' + $scope.name);
+            };
+        }]);
+    </script>
+</body>
+</html>
