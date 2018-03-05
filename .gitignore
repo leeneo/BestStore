@@ -8,7 +8,7 @@ node_modules
 .vs
 /bin
 /obj
-
+/node_modules
 
 /.### OSX ###
 *.DS_Store
@@ -89,3 +89,11 @@ jspm_packages
 /BestStore.Models/bin
 /CodeFirstDemo/bin
 /CodeFirstDemo/obj
+/BestStore.Cordova/plugins
+/BestStore.Cordova/platforms/android/CordovaLib
+/BestStore.Cordova/platforms/android
+/BestStore.API/wwwroot/lib
+/BestStore.Cordova/www/lib
+/BestStore.Cordova/resources
+/BestStore.Cordova/bin
+/BestStore.Cordova/merges
