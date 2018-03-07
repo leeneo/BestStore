@@ -11,14 +11,14 @@ using System;
 namespace EFCoreDemo.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    [Migration("20180307092054_init")]
-    partial class init
+    [Migration("20180307101242_inititaldb")]
+    partial class inititaldb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.0.0-rtm-26452")
+                .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("CodeFirstDemo.Models.Blog", b =>

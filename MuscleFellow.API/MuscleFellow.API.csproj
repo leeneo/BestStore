@@ -25,8 +25,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.0.0">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="MuscleFellow.Data" Version="1.1" />
-    <PackageReference Include="MuscleFellow.Models" Version="1.1" />
     <PackageReference Include="BundlerMinifier.Core" Version="2.2.306" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="1.1.1" />
@@ -58,6 +56,11 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BestStore.Data\BestStore.Data.csproj" />
+    <ProjectReference Include="..\BestStore.Models\BestStore.Models.csproj" />
   </ItemGroup>
 
 </Project>
