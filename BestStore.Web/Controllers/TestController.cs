@@ -10,8 +10,7 @@ namespace BestStore.Web.Controllers
     {
         public IActionResult Index()
         {
-            var str = "tesgt";
-            return View(str);
+            return View();
         }
     }
 }
