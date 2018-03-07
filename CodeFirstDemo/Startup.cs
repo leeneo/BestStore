@@ -24,8 +24,8 @@ namespace CodeFirstDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            var connection = @"Server=(localdb)\mssqllocaldb;Database=CodeFirstDemoDB;Trusted_Connection=True;";
-            services.AddDbContext<BloggingContext>(options => options.UseSqlServer(connection));
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=CodeFirstDemoDB;Trusted_Connection=True;ConnectRetryCount=0";
+            services.AddDbContext<BlogDbContext>(options => options.UseSqlServer(connection));
 
         }
 

@@ -7,11 +7,14 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using CodeFirstDemo.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodeFirstDemo
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();

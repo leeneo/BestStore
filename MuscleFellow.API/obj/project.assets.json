@@ -11300,8 +11300,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "找不到包 MuscleFellow.Data。源 Microsoft Visual Studio Offline Packages, nuget.org 中不存在具有此 ID 的包",
-      "libraryId": "MuscleFellow.Data",
+      "message": "找不到包 MuscleFellow.Models。源 Microsoft Visual Studio Offline Packages, nuget.org 中不存在具有此 ID 的包",
+      "libraryId": "MuscleFellow.Models",
       "targetGraphs": [
         ".NETCoreApp,Version=v1.1"
       ]
@@ -11309,8 +11309,8 @@
     {
       "code": "NU1101",
       "level": "Error",
-      "message": "找不到包 MuscleFellow.Models。源 Microsoft Visual Studio Offline Packages, nuget.org 中不存在具有此 ID 的包",
-      "libraryId": "MuscleFellow.Models",
+      "message": "找不到包 MuscleFellow.Data。源 Microsoft Visual Studio Offline Packages, nuget.org 中不存在具有此 ID 的包",
+      "libraryId": "MuscleFellow.Data",
       "targetGraphs": [
         ".NETCoreApp,Version=v1.1"
       ]
