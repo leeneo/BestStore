@@ -1,0 +1,10 @@
+G:\leeneo\MyProj\BestStore\EFCoreDemo\obj\Debug\netcoreapp2.0\EFCoreDemo.csproj.CoreCompileInputs.cache
+G:\leeneo\MyProj\BestStore\EFCoreDemo\obj\Debug\netcoreapp2.0\EFCoreDemo.AssemblyInfoInputs.cache
+G:\leeneo\MyProj\BestStore\EFCoreDemo\obj\Debug\netcoreapp2.0\EFCoreDemo.AssemblyInfo.cs
+G:\leeneo\MyProj\BestStore\EFCoreDemo\bin\Debug\netcoreapp2.0\EFCoreDemo.deps.json
+G:\leeneo\MyProj\BestStore\EFCoreDemo\bin\Debug\netcoreapp2.0\EFCoreDemo.runtimeconfig.json
+G:\leeneo\MyProj\BestStore\EFCoreDemo\bin\Debug\netcoreapp2.0\EFCoreDemo.runtimeconfig.dev.json
+G:\leeneo\MyProj\BestStore\EFCoreDemo\bin\Debug\netcoreapp2.0\EFCoreDemo.dll
+G:\leeneo\MyProj\BestStore\EFCoreDemo\bin\Debug\netcoreapp2.0\EFCoreDemo.pdb
+G:\leeneo\MyProj\BestStore\EFCoreDemo\obj\Debug\netcoreapp2.0\EFCoreDemo.dll
+G:\leeneo\MyProj\BestStore\EFCoreDemo\obj\Debug\netcoreapp2.0\EFCoreDemo.pdb

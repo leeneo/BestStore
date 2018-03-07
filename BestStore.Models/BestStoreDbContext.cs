@@ -11,11 +11,15 @@ namespace BestStore.Data
 
     public class BestStoreDbContext : IdentityDbContext<IdentityUser>
     {
-        public BestStoreDbContext(DbContextOptions<BestStoreDbContext> options) : base(options) { }
-        
+        //EF Core 2.0
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database =BestStoreDB;Trusted_Connection = True;");
+            // 在SQLLocalDb 上创建实例
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database =BestStoreDB;Trusted_Connection=True;ConnectRetryCount=0");
+
+            // 在MSSQLServe 上创建实例
+            //optionsBuilder.UseSqlServer(@"Server=.\mssql;Initial Catalog=EFCore;uid=neo;pwd=900106;ConnectRetryCount=0");
+
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

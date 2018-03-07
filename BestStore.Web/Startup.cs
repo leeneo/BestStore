@@ -65,8 +65,8 @@ namespace BestStore.Web {
             services.AddMvc ();
 
             // Add framework services.DotNet Core 1.1;
-            var connection = @"Server=.;Database=BestStoreStDB;Trusted_Connection=True;";
-            services.AddDbContext<BestStoreDbContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("BestStore.Web")));
+            //var connection = @"Server=(localdb)\mssqllocaldb;Database=BestStoreStDB;Trusted_Connection=True;";
+            //services.AddDbContext<BestStoreDbContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("BestStore.Web")));
 
             // Add session
             services.AddSession(options => options.IdleTimeout = TimeSpan.FromMinutes(20));

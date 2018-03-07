@@ -1,0 +1,11 @@
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\bin\Debug\netcoreapp2.0\CodeFirstDemo.deps.json
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\bin\Debug\netcoreapp2.0\CodeFirstDemo.runtimeconfig.json
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\bin\Debug\netcoreapp2.0\CodeFirstDemo.runtimeconfig.dev.json
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\bin\Debug\netcoreapp2.0\CodeFirstDemo.dll
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\bin\Debug\netcoreapp2.0\CodeFirstDemo.pdb
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\obj\Debug\netcoreapp2.0\CodeFirstDemo.csprojResolveAssemblyReference.cache
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\obj\Debug\netcoreapp2.0\CodeFirstDemo.csproj.CoreCompileInputs.cache
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\obj\Debug\netcoreapp2.0\CodeFirstDemo.AssemblyInfoInputs.cache
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\obj\Debug\netcoreapp2.0\CodeFirstDemo.AssemblyInfo.cs
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\obj\Debug\netcoreapp2.0\CodeFirstDemo.dll
+G:\leeneo\MyProj\BestStore\CodeFirstDemo\obj\Debug\netcoreapp2.0\CodeFirstDemo.pdb
