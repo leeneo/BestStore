@@ -9,6 +9,8 @@ node_modules
 /bin
 /obj
 /node_modules
+/packages
+*.dll
 
 /.### OSX ###
 *.DS_Store
@@ -97,3 +99,11 @@ jspm_packages
 /BestStore.Cordova/resources
 /BestStore.Cordova/bin
 /BestStore.Cordova/merges
+EFCoreDemo/bin/Debug/netcoreapp2.0/EFCoreDemo.dll
+EFCoreDemo/bin/Debug/netcoreapp2.0/EFCoreDemo.pdb
+EFCoreDemo/obj/Debug/netcoreapp2.0/EFCoreDemo.pdb
+EFCoreDemo/obj/Debug/netcoreapp2.0/EFCoreDemo.dll
+/DBFirstDemo/bin
+/DBFirstDemo/obj
+/EFCoreDemo/bin
+/EFCoreDemo/obj

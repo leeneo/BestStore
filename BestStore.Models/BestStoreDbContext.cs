@@ -4,7 +4,7 @@ using BestStore.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-namespace BestStore.Data
+namespace BestStore.Models
 {
 
     public class BestStoreDbContext : IdentityDbContext<IdentityUser>
@@ -13,10 +13,12 @@ namespace BestStore.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // 在SQLLocalDb 上创建实例
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database =BestStoreDB;Trusted_Connection=True;ConnectRetryCount=0");
+            optionsBuilder.UseSqlServer(@"Server=.;Database =BestStore3DB;Trusted_Connection=True;ConnectRetryCount=0");
 
-            // 在MSSQLServe 上创建实例
-            //optionsBuilder.UseSqlServer(@"Server=.\mssql;Initial Catalog=EFCore;uid=neo;pwd=900106;ConnectRetryCount=0");
+            // 在SQLServer 上创建实例
+            //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;User ID=neo;Password=900106;Trusted_Connection=True;ConnectRetryCount=0");
+            //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;uid=neo;pwd=900106;Trusted_Connection=True;ConnectRetryCount=0");
+            //optionsBuilder.UseSqlServer(@"Data Source=.;Initial Catalog=EFCoreDB;User Id=neo;Password=900106;");
 
         }
 
@@ -32,6 +34,7 @@ namespace BestStore.Data
             builder.Entity<CartItem>().HasKey(c => c.CartID);
             builder.Entity<WebappUser>().HasKey(u => u.Id);
             builder.Entity<ProductImage>().HasKey(i => i.ImageID);
+            base.OnModelCreating(builder);
         }
 
         public DbSet<Brand> Brands { get; set; }

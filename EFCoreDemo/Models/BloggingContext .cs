@@ -14,6 +14,12 @@ namespace CodeFirstDemo.Models
 
             // Visual Studio 2012 | 使用Visual Studio创建的SQL Express实例
             // optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=EFDemoDB;Trusted_Connection=True;");
+
+            // 在SQLServer 上创建实例
+            //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;User ID=neo;Password=900106;Trusted_Connection=True;ConnectRetryCount=0");
+            //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;uid=neo;pwd=900106;Trusted_Connection=True;ConnectRetryCount=0");
+            //optionsBuilder.UseSqlServer(@"Data Source=.;Initial Catalog=EFCoreDB;User Id=neo;Password=900106;");
+
         }
 
         public DbSet<Blog> Blogs { get; set; }

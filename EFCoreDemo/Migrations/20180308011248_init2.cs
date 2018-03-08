@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace EFCoreDemo.Migrations
 {
-    public partial class inititaldb : Migration
+    public partial class init2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

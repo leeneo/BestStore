@@ -11,8 +11,8 @@ using System;
 namespace EFCoreDemo.Migrations
 {
     [DbContext(typeof(BloggingContext))]
-    [Migration("20180307101242_inititaldb")]
-    partial class inititaldb
+    [Migration("20180308011248_init2")]
+    partial class init2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
