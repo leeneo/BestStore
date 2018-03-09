@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestStore.Models", "BestSto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemo", "CodeFirstDemo\CodeFirstDemo.csproj", "{C85EF51E-72A6-4538-826E-CCCEC2059CA1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBFirstDemo", "DBFirstDemo\DBFirstDemo.csproj", "{0A27C80E-3D6B-45FB-90EE-791959BAA465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C85EF51E-72A6-4538-826E-CCCEC2059CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85EF51E-72A6-4538-826E-CCCEC2059CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85EF51E-72A6-4538-826E-CCCEC2059CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A27C80E-3D6B-45FB-90EE-791959BAA465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A27C80E-3D6B-45FB-90EE-791959BAA465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A27C80E-3D6B-45FB-90EE-791959BAA465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A27C80E-3D6B-45FB-90EE-791959BAA465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ namespace BestStore.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // 在SQLLocalDb 上创建实例
-            optionsBuilder.UseSqlServer(@"Server=.;Database =BestStore3DB;Trusted_Connection=True;ConnectRetryCount=0");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database =BestStoreDB;Trusted_Connection=True;ConnectRetryCount=0");
 
             // 在SQLServer 上创建实例
             //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;User ID=neo;Password=900106;Trusted_Connection=True;ConnectRetryCount=0");

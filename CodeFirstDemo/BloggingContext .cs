@@ -10,15 +10,15 @@ namespace CodeFirstDemo
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=CodeFirstDB;Trusted_Connection=True;ConnectRetryCount=0");
 
             // Visual Studio 2013 | 使用Visual Studio创建的LocalDb 11 实例
-            // optionsBuilder.UseSqlServer(@"Server=(localdb)\v11.0;Database=EFDemoDB;Trusted_Connection=True;");
+            // optionsBuilder.UseSqlServer(@"Server=(localdb)\v11.0;Database=CodeFirstDB;Trusted_Connection=True;");
 
             // Visual Studio 2012 | 使用Visual Studio创建的SQL Express实例
-            // optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=EFDemoDB;Trusted_Connection=True;");
+            // optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=CodeFirstDB;Trusted_Connection=True;");
 
-            // 在SQLServer 上创建实例
-            //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;User ID=neo;Password=900106;Trusted_Connection=True;ConnectRetryCount=0");
-            //optionsBuilder.UseSqlServer(@"Server=.;Database=EFCoreDB;uid=neo;pwd=900106;Trusted_Connection=True;ConnectRetryCount=0");
-            //optionsBuilder.UseSqlServer(@"Data Source=.;Initial Catalog=EFCoreDB;User Id=neo;Password=900106;");
+            // 在SQLServer 上创建实例的连接字符串方式
+            //optionsBuilder.UseSqlServer(@"Server=.;Database=CodeFirstDB;User ID=neo;Password=900106;Trusted_Connection=True;ConnectRetryCount=0");
+            //optionsBuilder.UseSqlServer(@"Server=.;Database=CodeFirstDB;uid=neo;pwd=900106;Trusted_Connection=True;ConnectRetryCount=0");
+            //optionsBuilder.UseSqlServer(@"Data Source=.;Initial Catalog=CodeFirstDB;User Id=neo;Password=900106;");
 
         }
 

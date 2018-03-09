@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BestStore.Data.Repositories {
 
-    // 定义IProductRepository 商品接口;后面会由ProductRepository对象来继承;
     public class ProductRepository : IProductRepository {
 
         private BestStoreDbContext _dbContext = null;
