@@ -4324,26 +4324,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "BestStore.Data/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/BestStore.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BestStore.Data.dll": {}
-        }
-      },
-      "BestStore.Models/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/BestStore.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BestStore.Models.dll": {}
-        }
       }
     }
   },
@@ -11127,22 +11107,10 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "BestStore.Data/1.0.0": {
-      "type": "project",
-      "path": "../BestStore.Data/BestStore.Data.csproj",
-      "msbuildProject": "../BestStore.Data/BestStore.Data.csproj"
-    },
-    "BestStore.Models/1.0.0": {
-      "type": "project",
-      "path": "../BestStore.Models/BestStore.Models.csproj",
-      "msbuildProject": "../BestStore.Models/BestStore.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
-      "BestStore.Data >= 1.0.0",
-      "BestStore.Models >= 1.0.0",
       "BundlerMinifier.Core >= 2.2.306",
       "Microsoft.AspNetCore.Authentication.Cookies >= 1.1.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 1.1.1",
@@ -11198,14 +11166,7 @@
       },
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {
-            "G:\\leeneo\\MyProj\\BestStore\\BestStore.Data\\BestStore.Data.csproj": {
-              "projectPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Data\\BestStore.Data.csproj"
-            },
-            "G:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\BestStore.Models.csproj": {
-              "projectPath": "G:\\leeneo\\MyProj\\BestStore\\BestStore.Models\\BestStore.Models.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -11324,25 +11285,5 @@
         ]
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "项目 BestStore.Data 与 netcoreapp1.1 (.NETCoreApp,Version=v1.1) 不兼容。 项目 BestStore.Data 支持: netcoreapp2.0 (.NETCoreApp,Version=v2.0)",
-      "libraryId": "BestStore.Data",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "项目 BestStore.Models 与 netcoreapp1.1 (.NETCoreApp,Version=v1.1) 不兼容。 项目 BestStore.Models 支持: netcoreapp2.0 (.NETCoreApp,Version=v2.0)",
-      "libraryId": "BestStore.Models",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    }
-  ]
+  }
 }

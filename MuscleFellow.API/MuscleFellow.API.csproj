@@ -58,9 +58,4 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\BestStore.Data\BestStore.Data.csproj" />
-    <ProjectReference Include="..\BestStore.Models\BestStore.Models.csproj" />
-  </ItemGroup>
-
 </Project>

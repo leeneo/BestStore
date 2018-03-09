@@ -1,0 +1,5 @@
+G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.csprojResolveAssemblyReference.cache
+G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.csproj.CoreCompileInputs.cache
+G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.AssemblyInfoInputs.cache
+G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.AssemblyInfo.cs
