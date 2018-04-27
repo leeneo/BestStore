@@ -107,3 +107,5 @@ EFCoreDemo/obj/Debug/netcoreapp2.0/EFCoreDemo.dll
 /DBFirstDemo/obj
 /EFCoreDemo/bin
 /EFCoreDemo/obj
+MuscleFellow.API/obj
+MuscleFellow.API/obj/Debug/netcoreapp1.1/MuscleFellow.API.csproj.CoreCompileInputs.cache
