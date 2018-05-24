@@ -109,3 +109,7 @@ EFCoreDemo/obj/Debug/netcoreapp2.0/EFCoreDemo.dll
 /EFCoreDemo/obj
 MuscleFellow.API/obj
 MuscleFellow.API/obj/Debug/netcoreapp1.1/MuscleFellow.API.csproj.CoreCompileInputs.cache
+MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.cache
+MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.g.props
+MuscleFellow.API/obj/project.assets.json
+MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.cache
