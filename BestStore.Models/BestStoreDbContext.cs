@@ -1,9 +1,7 @@
-﻿using System;
-using System.Data;
-using BestStore.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+
 namespace BestStore.Models
 {
 
