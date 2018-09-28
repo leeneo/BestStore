@@ -115,3 +115,7 @@ MuscleFellow.API/obj/project.assets.json
 MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.cache
 MuscleFellow.API/obj/Debug/netcoreapp1.1/MuscleFellow.API.csproj.CoreCompileInputs.cache
 .gitignore
+BestStore.Data/BestStore.Data.csproj.user
+BestStore.Web/BestStore.Web.csproj.user
+MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.cache
+MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.g.props

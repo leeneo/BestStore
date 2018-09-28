@@ -5,15 +5,14 @@ using BestStore.Models;
 using BestStore.Web.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace BestStore.Web {
+namespace BestStore.Web
+{
     public class Startup {
 
         //Safe storage of app secrets during development in ASP.NET Core
@@ -122,6 +121,7 @@ namespace BestStore.Web {
             }
         }
 
+        //依赖注入类型的注册一般是在程序启动的入口中，如Startup.cs中的ConfigureServices中，该类的主要目的就是注册依赖注入的类型
         public IServiceCollection AddDependencies(IServiceCollection services)
         {
             services.AddScoped<IBrandRepository, BrandRepository>();
@@ -133,6 +133,21 @@ namespace BestStore.Web {
             services.AddScoped<IProductImageRepository, ProductImageRepository>();
             services.AddScoped<IShipAddressRepository, ShipAddressRepository>();
             services.AddScoped<BestStoreDbContext>();
+
+            //注册单例模式，整个应用程序周期内ITodoRepository接口的示例都是TodoRepository的一个单例实例
+            //services.AddSingleton<ITodoRepository, TodoRepository>();
+            //services.AddSingleton(typeof(ITodoRepository), typeof(TodoRepository));  // 等价形式
+
+            // 注册作用域型的类型，在特定作用域内ITodoRepository的示例
+            services.AddScoped<ITodoRepository, TodoRepository>();
+            //services.AddScoped(typeof(ITodoRepository), typeof(TodoRepository));// 等价形式
+
+            //获取该ITodoRepository实例时，每次都要实例化一次TodoRepository类
+            //services.AddTransient<ITodoRepository, TodoRepository>();
+            //services.AddTransient(typeof(ITodoRepository), typeof(TodoRepository));// 等价形式
+
+            //如果要注入的类没有接口，那你可以直接注入自身类型，比如：
+            //services.AddTransient<LoggingHelper>();
             return services;
         }
 
