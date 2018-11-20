@@ -61,7 +61,7 @@ namespace BestStore.Web
                 .AddEntityFrameworkStores<BestStoreDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc ();
+            services.AddMvc();
 
             // Add framework services.DotNet Core 1.1;
             //var connection = @"Server=(localdb)\mssqllocaldb;Database=BestStoreStDB;Trusted_Connection=True;";
