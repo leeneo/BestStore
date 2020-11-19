@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using MuscleFellow.Data;
-using MuscleFellow.Data.Interfaces;
-using MuscleFellow.Data.Repositories;
-using MuscleFellow.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+// using MuscleFellow.Data;
+// using MuscleFellow.Data.Interfaces;
+// using MuscleFellow.Data.Repositories;
+// using MuscleFellow.Models;
+// using Microsoft.EntityFrameworkCore;
+// using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -44,13 +44,13 @@ namespace MuscleFellow.API
             services.Configure<WebApiSettings>(settings => settings.HostName = Configuration["HostName"]);
             services.Configure<WebApiSettings>(settings => settings.SecretKey = Configuration["SecretKey"]);
 
-            // Add framework services.
-            services.AddDbContext<MuscleFellowDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            // // Add framework services.
+            // services.AddDbContext<MuscleFellowDbContext>(options =>
+            //     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<MuscleFellowDbContext>()
-                .AddDefaultTokenProviders();
+            // services.AddIdentity<ApplicationUser, IdentityRole>()
+            //     .AddEntityFrameworkStores<MuscleFellowDbContext>()
+            //     .AddDefaultTokenProviders();
 
             // Add framework services.
             services.AddMvc();
@@ -113,15 +113,15 @@ namespace MuscleFellow.API
         }
         public IServiceCollection AddDependencies(IServiceCollection services)
         {
-            services.AddScoped<IBrandRepository, BrandRepository>();
-            services.AddScoped<ICartItemRepository, CartItemRepository>();
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
-            services.AddScoped<IOrderRepository, OrderRepository>();
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped<IProductImageRepository, ProductImageRepository>();
-            services.AddScoped<IShipAddressRepository, ShipAddressRepository>();
-            services.AddScoped<MuscleFellowDbContext>();
+            // services.AddScoped<IBrandRepository, BrandRepository>();
+            // services.AddScoped<ICartItemRepository, CartItemRepository>();
+            // services.AddScoped<ICategoryRepository, CategoryRepository>();
+            // services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
+            // services.AddScoped<IOrderRepository, OrderRepository>();
+            // services.AddScoped<IProductRepository, ProductRepository>();
+            // services.AddScoped<IProductImageRepository, ProductImageRepository>();
+            // services.AddScoped<IShipAddressRepository, ShipAddressRepository>();
+            // services.AddScoped<MuscleFellowDbContext>();
             return services;
         }
     }
