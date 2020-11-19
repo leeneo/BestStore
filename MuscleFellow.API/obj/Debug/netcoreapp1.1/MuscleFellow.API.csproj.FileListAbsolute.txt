@@ -3,3 +3,8 @@ G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow
 G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
 G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.AssemblyInfoInputs.cache
 G:\leeneo\MyProj\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.AssemblyInfo.cs
+F:\MyProjects\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.csprojAssemblyReference.cache
+F:\MyProjects\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.AssemblyInfoInputs.cache
+F:\MyProjects\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.AssemblyInfo.cs
+F:\MyProjects\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\MuscleFellow.API.csproj.CoreCompileInputs.cache
+F:\MyProjects\BestStore\MuscleFellow.API\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

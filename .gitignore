@@ -107,6 +107,8 @@ EFCoreDemo/obj/Debug/netcoreapp2.0/EFCoreDemo.dll
 /DBFirstDemo/obj
 /EFCoreDemo/bin
 /EFCoreDemo/obj
+MuscleFellow.API
+MuscleFellowCordova
 MuscleFellow.API/obj
 MuscleFellow.API/obj/Debug/netcoreapp1.1/MuscleFellow.API.csproj.CoreCompileInputs.cache
 MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.cache
@@ -121,3 +123,6 @@ MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.cache
 MuscleFellow.API/obj/MuscleFellow.API.csproj.nuget.g.props
 BestStore.Models/BestStore.Models.csproj.user
 MuscleFellow.API/obj/Debug/netcoreapp1.1/MuscleFellow.API.csproj.CoreCompileInputs.cache
+DBFirstDemo/BloggingContext.cs
+
+

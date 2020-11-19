@@ -11386,10 +11386,11 @@
           }
         },
         "imports": [
-          "dotnet5.6",
+          "dotnet56",
           "dnxcore50",
           "portable-net45+win8"
-        ]
+        ],
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
